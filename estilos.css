@@ -1,0 +1,47 @@
+
+:root {
+    --font_white: #fff;
+    --font_purple: #6610f2;
+    --font_yellow: #ffc107;
+    --background: black;
+}
+
+.texto-menor {
+    font-size: 13px;
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.div-novidades {
+    width: 325px;
+}
+
+.card_titulo {
+    color: var(--font_white);
+}
+
+.facilidades__yellow {
+    color: var(--font_yellow);
+}
+
+.botao {
+    color: var(--font_white);
+    background-color: var(--font_purple);
+}
+
+.back {
+    color: var(--font_white);
+    background: var(--background);
+    border-color: none;
+
+}
+
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
+}
